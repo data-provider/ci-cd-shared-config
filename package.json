@@ -4,6 +4,7 @@
   "scripts": {
     "test": "echo \"test OK\"",
     "test:ci": "echo \"test:ci OK\"",
+    "build": "echo \"build OK\"",
     "lint": "echo \"lint OK\"",
     "coveralls": "echo \"coveralls OK\""
   }

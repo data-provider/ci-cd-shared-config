@@ -28,6 +28,9 @@ script:
 
 jobs:
   include:
+    - stage: build
+      script:
+        - npm run build
     - stage: sonar
       script:
         - npm run test:ci
@@ -35,7 +38,7 @@ jobs:
       if: env(SONAR_TOKEN) IS present
     - stage: deploy
       script:
-        - echo "Deploying"
+        - npm run build
       deploy:
         provider: npm
         edge: true
