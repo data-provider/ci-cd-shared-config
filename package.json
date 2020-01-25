@@ -1,0 +1,10 @@
+{
+  "name": "@data-provider/ci-cd-shared-config",
+  "private": true,
+  "scripts": {
+    "test": "echo \"test OK\"",
+    "test:ci": "echo \"test:ci OK\"",
+    "lint": "echo \"lint OK\"",
+    "coveralls": "echo \"coveralls OK\""
+  }
+}
