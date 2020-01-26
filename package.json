@@ -2,8 +2,8 @@
   "name": "@data-provider/ci-cd-shared-config",
   "private": true,
   "scripts": {
-    "test": "echo \"test OK\"",
     "test:ci": "echo \"test:ci OK\"",
+    "test:coverage": "echo \"test:coverage OK\"",
     "build": "echo \"build OK\"",
     "lint": "echo \"lint OK\"",
     "coveralls": "echo \"coveralls OK\""
